@@ -234,6 +234,12 @@ span {
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.5px;
+  transition: all .3s;
+}
+.btn:hover{
+  color:var(--blue);
+  background-color:var(--white);
+  border: 2px solid var(--blue);
 }
 .capabilities-top-btn {
   text-decoration: none;
@@ -678,7 +684,7 @@ padding: 5px;
 @media (max-width: 590px){
   .content-footer-wrap {
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 130px 50px 1fr ;
     grid-template-areas:
     "a a"
     "b b"
